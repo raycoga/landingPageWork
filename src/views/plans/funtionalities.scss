@@ -1,0 +1,14 @@
+@import '../../sass/colors';
+@import '../../sass/resposiveSize';
+
+.container-functionalities {
+    padding-top: 60px;
+    background-image: url('../../images/backgroundLanding.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #424242;
+
+    @include media(md) {
+        padding-top: 100px;
+    }
+}

@@ -1,0 +1,128 @@
+@import '../../sass/colors';
+@import '../../sass/resposiveSize';
+
+
+
+.container-landing {
+    padding-top: 60px;
+    background-image: url('../../images/backgroundLanding.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #424242;
+
+    @include media(md) {
+        padding-top: 100px;
+    }
+
+    .footer {
+        min-height: 150px;
+        width: 100%;
+        background-color: white;
+
+        @include media(md) {
+            height: 27em;
+        }
+
+        ;
+
+        .col-12 {
+            &.left {
+                padding-left: 7em;
+
+                @include media(md) {
+                    padding: 0 7em;
+                }
+
+                ;
+            }
+
+            &.right {
+                padding-right: 7em;
+
+                @include media(md) {
+                    padding: 0 7em;
+                }
+
+                ;
+            }
+
+            &.size {
+                height: 140px;
+
+                @include media(md) {
+                    height: auto;
+                }
+
+                ;
+            }
+
+            &.size2 {
+                height: 20px;
+            }
+        }
+
+        .img-container {
+            position: absolute;
+            right: 7em;
+            bottom: 0;
+
+            @include media(md) {
+                position: static;
+            }
+
+            ;
+
+            ul {
+                @include media(md) {
+                    display: flex;
+                    justify-content: center;
+                    padding: 0;
+                }
+
+                ;
+
+                li {
+                    display: inline;
+                    list-style: none;
+                    padding-left: 15px;
+
+                    img {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+
+        .links {
+            display: flex;
+            justify-content: flex-end;
+
+            @include media(md) {
+                justify-content: center;
+            }
+
+            ;
+
+            ul {
+                @include media(md) {
+
+                    padding: 0;
+                }
+
+                ;
+
+                li {
+                    display: inline;
+                    list-style: none;
+                    padding-left: 10px;
+
+                    a {
+                        color: $letters;
+                        font-size: 13px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

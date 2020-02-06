@@ -1,0 +1,253 @@
+@import '../../../../sass/colors';
+@import '../../../../sass/resposiveSize';
+
+.container-one {
+
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+    @include media (md) {
+        height: auto;
+    }
+
+    .shape {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+
+        @include media (md) {
+            display: none;
+        }
+
+    }
+
+    .intern-container {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 50;
+
+        @include media (md) {
+            position: relative;
+            flex-direction: column;
+            height: auto;
+        }
+
+        .left-side {
+            height: 100%;
+            width: 40%;
+            padding-top: 10%;
+            padding-left: 5%;
+            color: white;
+
+            @include media (md) {
+                height: auto;
+                width: 100%;
+            }
+
+            img {
+                height: 60px;
+                width: auto;
+                margin-bottom: 10px;
+
+                @include media (md) {
+                    display: none;
+                }
+            }
+
+            h6 {
+                font-weight: 600;
+
+                @include media (md) {
+                    font-size: 20px;
+                }
+
+            }
+
+            a {
+                button {
+                    color: rgba(255, 255, 255, 0.698);
+                    ;
+                    padding: 5px 70px;
+                    border-radius: 50px;
+                    border: 1px solid rgba(255, 255, 255, 0.376);
+                    background: rgba(255, 255, 255, 0.075);
+                }
+            }
+
+            @include media(md) {}
+        }
+
+        .right-side {
+            position: relative;
+            height: 100%;
+            width: 60%;
+            padding-top: 25%;
+            padding-left: 15%;
+            color: white;
+
+
+            @include media (md) {
+                width: 100%;
+                padding-top: 10%;
+                padding-left: 0;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .floating-circles {
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                @include media (md) {
+
+                    height: 10%;
+                }
+
+                &:first-child {
+                    top: 33%;
+                    left: 8%;
+                    animation: float 3.1s ease-in-out infinite;
+
+                    @include media (md) {
+                        top: 29%;
+                        left: 9%;
+                    }
+                }
+
+                &:nth-child(2) {
+                    top: 21%;
+                    left: 30%;
+                    animation: float 3.3s ease-in-out infinite;
+
+                    @include media (md) {
+                        display: none;
+                    }
+                }
+
+                &:nth-child(3) {
+                    top: 6%;
+                    left: 48%;
+                    animation: float 3.5s ease-in-out infinite;
+
+                    @include media (md) {
+                        display: none;
+                    }
+                }
+
+                &:nth-child(4) {
+                    top: 18%;
+                    left: 67%;
+                    animation: float 3.2s ease-in-out infinite;
+
+                    @include media (md) {
+                        display: none;
+                    }
+                }
+
+                &:nth-child(5) {
+                    top: 6%;
+                    left: 80%;
+                    animation: float 3.4s ease-in-out infinite;
+
+                    @include media (md) {
+                        display: none;
+                    }
+                }
+
+                &:nth-child(6) {
+                    top: 15%;
+                    left: 28%;
+                    animation: float 3.3s ease-in-out infinite;
+                    display: none;
+
+                    @include media (md) {
+                        display: block;
+                    }
+                }
+
+                &:nth-child(7) {
+                    top: 6%;
+                    left: 48%;
+                    animation: float 3.5s ease-in-out infinite;
+                    display: none;
+
+                    @include media (md) {
+                        display: block;
+                    }
+                }
+
+                &:nth-child(8) {
+                    top: 12%;
+                    left: 67%;
+                    animation: float 3.2s ease-in-out infinite;
+                    display: none;
+
+                    @include media (md) {
+                        display: block;
+                    }
+                }
+
+                &:nth-child(9) {
+                    top: 6%;
+                    left: 80%;
+                    animation: float 3.4s ease-in-out infinite;
+                    display: none;
+
+                    @include media (md) {
+                        display: block;
+                    }
+                }
+
+
+            }
+
+            .screen {
+                position: absolute;
+                width: 85%;
+                top: 21%;
+                left: 5%;
+
+                @include media (md) {
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                }
+            }
+
+        }
+    }
+}
+
+
+@keyframes float {
+    0% {
+        filter: drop-shadow(0 0px 2px rgba(0, 0, 0, 0.6));
+        /*   filter: drop-shadow(0 6mm 5mm rgba(0,0,0,2)); */
+        /* 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+        transform: translatey(0px);
+    }
+
+    50% {
+        filter: drop-shadow(0 20px 10px rgba(0, 0, 0, 0.2));
+        /*  filter: drop-shadow(0 12mm 5mm rgba(0,0,0,0.2)); */
+        /* 	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+        transform: translatey(-20px);
+    }
+
+    100% {
+        filter: drop-shadow(0 0px 2px rgba(0, 0, 0, 0.6));
+        /*  filter: drop-shadow(0 6mm 5mm rgba(0,0,0,1)); */
+        /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+        transform: translatey(0px);
+    }
+}

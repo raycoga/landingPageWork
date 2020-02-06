@@ -1,0 +1,57 @@
+{
+    "list_one": {
+        "cero": "Funcionalidades",
+        "one": "Soluciones",
+        "two": "Planes",
+        "three": "Compañia",
+        "four": "Contacto",
+        "five": "Pagina Principal"
+    },
+    "button_one": "Ingresar",
+    "title_one": "La plataforma ideal para administrar tus redes sociales",
+    "sub_title": "Si quieres hacer que la gestión de tus redes sociales sea un poco más sencilla, Ajo Social Centraliza todos tus perfiles de Twitter, Facebook, Instagram, o LinkedIn en una sola plataforma.",
+    "button_two": "Inicia",
+    "tittle_two": "¿Que podemos hacer?",
+    "list_two": {
+        "cero": "Gestionar varios perfiles sociales de forma simultánea.",
+        "one": "Centraliza todos tus perfiles en un mismo panel.",
+        "two": "Publicaciones de imágenes, texto y vídeos.",
+        "three": "Previsualizar el contenido antes de ser publicado",
+
+        "four": "Publicar contenido al instante o programarla la subida para otro momento.",
+        "five": "Crea borradores de tus publicaciones.",
+        "six": "Hacer seguimiento de las analíticas de todos los perfiles.",
+        "seven": "Planificar calendarios.",
+        "eight": "Trabajar en equipo y dar accesos a otros usuarios para publicar.",
+        "nine": "Escribe y responde comentarios.",
+        "ten": "Monitorea el numero de seguidores.",
+        "eleven": "Ver notificaciones y actividad del team."
+    },
+    "tittle_three": "¿Quieres ver más?",
+    "subtitle_two": "Mostrar mas funciones",
+    "tittle_four": "Entrepreneur or Expert",
+    "paragraph_one": "Una buena gestión de redes sociales te ayudará a fidelizar y a crear comunidad alrededor de tu marca, pero indirectamente estarás atrayendo nuevos clientes a tu web o negocio. Además, si trabajas como community manager o sólo eres un principiante en las redes sociales, y se te da bien, Ajo Social se adapta a tus necesidades sin necesidad de terceros.",
+    "paragraph_two": "Sabemos que las redes sociales importan. Por muy pequeño que sea tu negocio, necesitas tenerlo conectado con tus perfiles sociales y con esta plataforma es muy sencillo hacerlo ahorrando tiempo y optimizando los procesos.",
+    "tittle_five": "¿Estas preparado?",
+    "subtitle_three": "Muestra mas soluciones",
+    "title_six": "Nosotros hacemos las cosas mas simples",
+    "subtitle_four": "Programa, analiza, gestiona, trabaja en equipo y monitorea tus redes sociales.",
+    "subtitle_five": "No sólo es una plataforma web sino también la puedes encontrar en versión app para dispositivos iOS y Android, de tal manera que puedas programar publicaciones desde donde sea.",
+
+    "subtitle_six": "' Te encantará, especialmente si manejas multiples perfiles '",
+    "title_seven": "Enviar un Mensaje",
+    "input_one": "Correo",
+    "input_two": "Escribe tu mensaje",
+    "button_three": "Enviar",
+    "span_one": "You still do not have an account",
+    "button_four": "Resgistrate",
+    "paragraph_three": "If you want to make the management of your social networks easier, Ajo Social Centralize all your Twitter, Facebook, Instagram, or LinkedIn profiles on a single platform.",
+    "copy": "© Todos los derechos reservado",
+    "list_Three": {
+        "cero": "Terminos y Condiciones",
+        "one": "Politica de privacidad",
+        "two": "Child Protection",
+        "three": "Compañia",
+        "four": "Contacto"
+    }
+}

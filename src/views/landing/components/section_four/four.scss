@@ -1,0 +1,73 @@
+@import '../../../../sass/colors';
+@import '../../../../sass/resposiveSize';
+
+.container-four {
+    /*     display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    flex-direction: column;
+
+    background-color: white;
+    height: 93vh;
+
+    @include media(md) {
+        height: 20em;
+    }
+
+    @include media(sm) {
+        height: 12em;
+    }
+
+
+
+    .container-background {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgba(156, 156, 156, 0.239), transparent);
+
+    }
+
+    .container-image {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        position: relative;
+        top: -80px;
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+
+        @include media(md) {
+            top: -20px;
+
+        }
+
+        @include media(sm) {
+            width: 80vw;
+            left: 10px;
+        }
+    }
+
+    img {
+        position: absolute;
+        z-index: 5;
+        height: 120%;
+        width: 90vw;
+        /*  height: 47em; */
+
+        @include media(md) {
+            width: auto;
+            /*   height: 25em; */
+            height: 120%;
+        }
+
+        @include media(sm) {
+
+            height: 15em;
+
+            /*   height: 120%; */
+        }
+    }
+}
