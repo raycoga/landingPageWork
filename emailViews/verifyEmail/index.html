@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Verify Email</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+
+        color: #424242;
+    }
+
+    .container-verification {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-image: url('./images/background.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .logo {
+        width: 17vw;
+        margin-top: 6vh;
+    }
+
+    button {
+        border: none;
+        padding: 1vh 5vw;
+        background-color: #D67165;
+        border-radius: 20px;
+    }
+
+    button>a {
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    h3 {
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+        color: #fe5864;
+    }
+
+    p:nth-child(3) {
+
+        margin-top: 1vh;
+        margin-top: 1vh;
+    }
+
+    p:nth-child(5) {
+        margin-bottom: 0;
+        margin-top: 3vh;
+    }
+
+    /*   p:nth-child(6) {
+    
+    } */
+
+    .link {
+        margin-top: 2vh;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 5px;
+        width: 50vw;
+        padding: 2vh;
+        font-weight: 900;
+    }
+
+    .link>a {
+        text-decoration: none;
+        color: #ff6a82;
+
+    }
+
+    .networks {
+        display: flex;
+        justify-content: center;
+    }
+
+    .networks>a {
+        text-decoration: transparent;
+        text-align: center;
+    }
+
+    .networks>a>img {
+        width: 80%;
+        margin-top: 2vh;
+    }
+
+    .page {
+        text-decoration: none;
+        color: #ff6a82;
+    }
+</style>
+
+<body>
+    <div class="container-verification">
+        <img class="logo" src="./images/logo.png" alt="logo">
+        <h3>Account Activation</h3>
+        <p style='text-align: center'>Hello, <b>USER</b>, thank you for sign up with us. We need you to <br> confirm
+            your
+            e-mail address:</p>
+        <button>
+            <a href="/" target="_blank"> <b>Verify E-mail</b> </a>
+        </button>
+        <p>If the previous link does not work, try copying and pasting the following link in your browser's addres bar:
+        </p>
+        <div class="link">
+            <a href="/" target="_blank">URL</a>
+        </div>
+        <div class="networks">
+            <a href="/" target="_blank">
+                <img class="logo" src="./images/redlk.png" alt="logolk">
+            </a>
+            <a href="/" target="_blank">
+                <img class="logo" src="./images/redtw.png" alt="logotw">
+            </a>
+            <a href="/" target="_blank">
+                <img class="logo" src="./images/redfb.png" alt="logofb">
+            </a>
+            <a href="/" target="_blank">
+                <img class="logo" src="./images/redig.png" alt="logoig">
+            </a>
+        </div>
+        <a class="page" href="/" target="_blank">
+            URL www.ajosocial.com
+        </a>
+        <p> <i>Copyright &copy; 2020 AjoSocial, All rights reserved.</i>
+        </p>
+    </div>
+</body>
+
+</html>

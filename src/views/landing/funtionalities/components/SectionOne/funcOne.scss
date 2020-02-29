@@ -1,0 +1,116 @@
+@import '../../../../../sass/colors';
+@import '../../../../../sass/resposiveSize';
+
+.functionalities-container-one {
+    height: auto;
+    width: 100%;
+    position: relative;
+
+
+
+    .laptops {
+        width: 100%;
+
+        /*  height: 100%; */
+
+    }
+
+    .likes {
+        position: absolute;
+        z-index: 6;
+
+
+        &:nth-child(2) {
+            height: 18vh;
+            animation: float 3.7s ease-in-out infinite;
+
+            @include media (xl) {
+                top: 10vh;
+                left: 78vw;
+            }
+
+            @include media (lg) {
+                top: 9vh;
+                left: 77vw;
+                height: 16%;
+            }
+
+            @include media (md) {
+                top: 11vh;
+                left: 77vw;
+                height: 12%;
+            }
+
+            @include media (sm) {
+                top: 8vh;
+                left: 78vw;
+                height: 8%;
+            }
+
+            @include media (xs) {
+                top: 6vh;
+                left: 78vw;
+                height: 8%;
+            }
+        }
+
+        &:nth-child(3) {
+            height: 18vh;
+            animation: float 3.5s ease-in-out infinite;
+
+            @include media (xl) {
+                top: 48vh;
+                left: 13vw;
+            }
+
+            @include media (lg) {
+                top: 44vh;
+                left: 13vw;
+                height: 16%;
+            }
+
+            @include media (md) {
+                top: 33vh;
+                left: 13vw;
+                height: 15%;
+            }
+
+            @include media (sm) {
+                top: 26vh;
+                left: 15vw;
+                height: 8%;
+            }
+
+            @include media (xs) {
+                top: 17vh;
+                left: 15vw;
+                height: 8%;
+            }
+
+        }
+    }
+}
+
+/*  animation: float 3.1s ease-in-out infinite; */
+@keyframes float {
+    0% {
+        /*  filter: drop-shadow(0 0px 2px rgba(0, 0, 0, 0.6)); */
+        /*   filter: drop-shadow(0 6mm 5mm rgba(0,0,0,2)); */
+        /* 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+        transform: translatey(0px);
+    }
+
+    50% {
+        /*  filter: drop-shadow(0 20px 10px rgba(0, 0, 0, 0.2)); */
+        /*  filter: drop-shadow(0 12mm 5mm rgba(0,0,0,0.2)); */
+        /* 	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+        transform: translatey(-20px);
+    }
+
+    100% {
+        /*     filter: drop-shadow(0 0px 2px rgba(0, 0, 0, 0.6)); */
+        /*  filter: drop-shadow(0 6mm 5mm rgba(0,0,0,1)); */
+        /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+        transform: translatey(0px);
+    }
+}

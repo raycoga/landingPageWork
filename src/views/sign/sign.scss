@@ -44,7 +44,7 @@
                 @include media(sm) {
                     margin-top: 120px;
                     margin-bottom: 50px;
-                   padding: 20px 0;
+                    padding: 20px 0;
                 }
 
             }
@@ -132,6 +132,12 @@
         padding: 5px 4em;
         margin: 20px 0;
         font-size: 12px;
+        outline: none !important;
+
+        &:disabled {
+            background-color: rgba(238, 237, 237, 0.657);
+            color: white;
+        }
     }
 
     p {
@@ -199,8 +205,4 @@
         }
 
     }
-}
-
-button {
-    outline: none !important;
 }

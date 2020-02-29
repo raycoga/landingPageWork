@@ -6,7 +6,7 @@ const Index = () => {
     return (
         <div className="container-three">
             <div className="text">
-                <h2>{intl.get('tittle_four')} </h2>
+                <h2>{intl.get('tittle_four')}</h2>
                 <p>{intl.get('paragraph_one')}</p>
                 <p>{intl.get('paragraph_two')}</p>
             </div>

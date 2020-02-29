@@ -1,0 +1,161 @@
+@import '../../../../../sass/colors';
+@import '../../../../../sass/resposiveSize';
+
+.company-container-two {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    color: #424242;
+
+    @include media(md) {
+        flex-direction: column;
+        padding: 0;
+        height: 120vh;
+    }
+
+    @include media(sm) {
+        flex-direction: column;
+        padding: 0;
+        height: 150vh;
+    }
+
+    .picture {
+        position: relative;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 5%;
+
+        @include media(md) {
+            width: 100%;
+            height: auto;
+            order: 2;
+            padding-right: 0;
+        }
+
+        img {
+
+            &.cel {
+                width: auto;
+                position: absolute;
+                top: 4em;
+                left: 7rem;
+
+                @include media(md) {
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                }
+            }
+
+            &:nth-child(2) {
+                width: 5rem;
+                position: absolute;
+                top: 6.5rem;
+                left: 23.5rem;
+
+                @include media(md) {
+                    top: 6%;
+                    left: 59%;
+                }
+
+                @include media(sm) {
+                    top: 6%;
+                    left: 63%;
+                }
+
+            }
+
+            &:nth-child(3) {
+                width: 5rem;
+                position: absolute;
+                top: 20rem;
+                left: 7rem;
+
+                @include media(md) {
+                    top: 43%;
+                    left: 28%;
+                }
+
+                @include media(sm) {
+                    top: 43%;
+                    left: 27%;
+                }
+
+                @include media(xs) {
+                    top: 43%;
+                    left: 13%;
+                }
+
+            }
+
+            &:nth-child(4) {
+                width: 5rem;
+                position: absolute;
+                top: 26rem;
+                left: 23.5rem;
+
+                @include media(md) {
+                    top: 59%;
+                    left: 59%;
+                }
+
+                @include media(sm) {
+                    top: 59%;
+                    left: 63%;
+                }
+
+            }
+
+            &:nth-child(5) {
+                width: 5rem;
+                position: absolute;
+                top: 34rem;
+                left: 7rem;
+
+                @include media(md) {
+                    top: 80%;
+                    left: 28%;
+                }
+
+                @include media(sm) {
+                    top: 80%;
+                    left: 27%;
+                }
+
+                @include media(xs) {
+                    top: 80%;
+                    left: 13%;
+                }
+            }
+
+
+        }
+
+
+    }
+
+    .text {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 50%;
+        height: auto;
+        padding-right: 6%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+
+        @include media(md) {
+            padding: 5% 5% 0 5%;
+            width: 100%;
+            height: auto;
+            order: 1
+        }
+    }
+}

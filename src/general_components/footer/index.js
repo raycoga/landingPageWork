@@ -1,4 +1,5 @@
 import React from 'react';
+import './footer.scss'
 import { Link } from 'react-router-dom'
 import fb from '../../images/fb_foot.png'
 import tw from '../../images/tw_foot.png'

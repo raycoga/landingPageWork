@@ -1,0 +1,65 @@
+@import '../../../../../sass/colors';
+@import '../../../../../sass/resposiveSize';
+
+.company-container-two {
+    height: 85vh;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding-right: 5%;
+
+    @include media(md) {
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+    }
+
+    .picture {
+        position: relative;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: auto;
+            width: 100%;
+            position: absolute;
+            z-index: 15;
+            left: 0;
+
+            @include media(md) {
+                position: relative;
+                height: auto;
+            }
+        }
+
+        @include media(md) {
+            width: 100%;
+            height: auto;
+            order: 2;
+        }
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        padding-left: 7%;
+
+        @include media(lg) {
+            padding-left: 15%;
+        }
+
+        @include media(md) {
+            padding: 5% 5% 0 5%;
+            width: 100%;
+            height: auto;
+            order: 1
+        }
+    }
+}

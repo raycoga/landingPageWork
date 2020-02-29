@@ -15,7 +15,7 @@ const index = () => {
             <div className="circle2"></div>
             <img src={Phones} alt="phones" />
             <img src={Playstore} className="button" alt="phones" />
-            <i><p c>{intl.get('subtitle_six')}</p></i>
+            <i><p>{intl.get('subtitle_six')}</p></i>
 
         </div>
     );

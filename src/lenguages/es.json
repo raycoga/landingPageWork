@@ -29,8 +29,8 @@
     },
     "tittle_three": "¿Quieres ver más?",
     "subtitle_two": "Mostrar mas funciones",
-    "tittle_four": "Entrepreneur or Expert",
-    "paragraph_one": "Una buena gestión de redes sociales te ayudará a fidelizar y a crear comunidad alrededor de tu marca, pero indirectamente estarás atrayendo nuevos clientes a tu web o negocio. Además, si trabajas como community manager o sólo eres un principiante en las redes sociales, y se te da bien, Ajo Social se adapta a tus necesidades sin necesidad de terceros.",
+    "tittle_four": "Emprendedor o Experto",
+    "paragraph_one": "Una buena gestión de redes sociales te ayudará a fidelizar y  crear una comunidad alrededor de tu marca; indirectamente estarás atrayendo nuevos clientes a tu web o negocio. Además, si trabajas como community manager o sólo eres un principiante en las redes sociales, Ajo Social se adapta a tus necesidades sin necesidad de terceros.",
     "paragraph_two": "Sabemos que las redes sociales importan. Por muy pequeño que sea tu negocio, necesitas tenerlo conectado con tus perfiles sociales y con esta plataforma es muy sencillo hacerlo ahorrando tiempo y optimizando los procesos.",
     "tittle_five": "¿Estas preparado?",
     "subtitle_three": "Muestra mas soluciones",
@@ -53,5 +53,74 @@
         "two": "Protección infantil",
         "three": "Compañia",
         "four": "Contacto"
+    },
+
+    "funtionalities": {
+        "section_two": {
+            "title": "Trabaja de forma fácil en equipo",
+            "paragraph_one": "Si eres Owner o Líder puedes conectar tus redes sociales sin necesidad de dar tu clave a terceros, además puedes ver todas las redes conectadas, seguidores, gestionar los accesos, invitar a tus community managers para darles acceso a publicar en tus redes sociales, adicional puedes editar sus perfiles, eliminarlos y cambiar sus roles en cualquier momento.",
+            "paragraph_two": "Si eres community manager puedes disfrutar de todas las funcionalidades pero sin preocuparte por conectar redes sociales ni manejar claves, podrás ver solo las redes sociales que se te asignen, su comportamiento, el top de los miembros del team más activos, Publicar, programar, planificar calendarios y mucho más."
+        },
+        "section_three": {
+            "title": "Página Principal",
+            "paragraph_one": "Desde la página principal puedes hacer seguimiento de las analíticas de todos los perfiles, ver el total de publicaciones que has realizado, la cantidad publicaciones pendientes, el top de miembros más activos, el progreso de tus redes sociales y el histórico diario de publicaciones para mantenerte al día de forma sencilla con un monitoreo global."
+        },
+        "section_four": {
+            "title": "Tablero",
+            "paragraph_one": "Ajo Social te permite mantener todo organizado mediante un tablero de publicaciones donde puedes tener a mano el status, fecha, hora, la interacción, cantidad de likes, comentarios y vistas de cada publicación, además de facilitar el proceso de gestión filtrando cada una de estas opciones. Es la forma más cómoda de ver las publicaciones e interactuar con los seguidores, escribir o responder comentarios.",
+            "paragraph_two": "El diseño de la herramienta es muy amigable e intuitivo."
+        },
+        "section_five": {
+            "title": "¿Qué quieres ver?",
+            "paragraph_one": "La información en toda la plataforma se basará en las redes sociales que tengas seleccionadas en el panel superior, puedes seleccionar o quitar la selección dependiendo del contenido que te interese ver, además si eres el dueño o líder puedes conectar otras redes sociales en cualquier momento."
+        },
+        "section_six": {
+            "title": "Redes Sociales",
+            "paragraph_one": "Si quieres hacer que la gestión de tus redes sociales sea un poco más sencilla, centralizamos todos tus perfiles de Twitter, Facebook, Instagram, o LinkedIn en un mismo panel, en esta vista puedes ver por cada red social, la cantidad de seguidores, tu rol, los miembros que tienen accesos y si eres Owner o líder, remover o añadir miembros a cada red."
+        },
+        "section_seven": {
+            "title": "Notificaciones",
+            "paragraph_one": "Recibe alertas de nuevos comentarios, interacciones de tus seguidores o la actividad de tu team y entérate en cualquier momento de lo que sucede en tu cuenta Ajo Social."
+        },
+        "section_eight": {
+            "title": "Publica",
+            "paragraph_one": "Creamos la forma más eficiente y completa para crear tus publicaciones, sólo debes seleccionar una o más redes sociales si quieres hacerlo de forma simultánea, Llenar tu contenido con ayuda de los límites de caracteres por cada red, agregar imágenes o vídeos, a medida que vayas personalizando tu post podrás previsualizarlo en al momento antes ser publicadas. Publica al instante o programar los post para otro momento y si no estás seguro crea borradores de tus publicaciones."
+        },
+        "section_nine": {
+            "title": "Planificar calendarios",
+            "paragraph_one": "Si te encanta el orden no hay mejor forma de planificarte que con nuestros calendarios, puedes verlos por día, semana, mes o año y así tener una visión general más clara de lo que se ha publicado o los espacios en que quieras programar a futuro."
+        },
+        "section_ten": {
+            "title": "Configuraciones",
+            "paragraph_one": "Puedes ver la plataforma en el idioma de desees y mantener seguras tus redes sociales a través de el autenticador de Google."
+        }
+
+    },
+    "solutions": {
+        "section_one": {
+            "title": "Soluciones",
+            "paragraph_one": "Ajo Social se adapta a todo tipo negocio o cuenta particular ofreciendo soluciones innovadoras y amigables para atender sus necesidades en el manejo de redes sociales.",
+            "button": "Comenzar"
+        },
+        "section_two": {
+            "title": "Corporaciones",
+            "paragraph_one": "Sabemos lo importante que es manejo de redes sociales en las grandes corporaciones, es uno de los pilares fundamentales para establecer una comunicación con sus clientes y proyectar solidez, Ajo Social brinda múltiples herramientas para que ningún detalle se escape de tus manos, trabaja en equipo, asigna un líder que a su vez pueda supervisar al resto de community managers, administrar cuentas, planificar calendarios, llevar el histórico de publicaciones, mantenerse al día con las notificaciones de sus redes y mucho más.",
+            "paragraph_two": "Sin duda somos el aliado perfecto para administrar tus redes sociales."
+        },
+        "section_three": {
+            "title": "Agencias",
+            "paragraph_one": "Ajo Social se adapta a la medida a las necesidades de las agencias, son quienes manejan la mayor cantidad de redes sociales por tratarse de uno de sus servicios principales, nuestra plataforma está diseñada para manejar grandes volúmenes de publicaciones y facilitar la administración de múltiples cuentas asociadas.",
+            "paragraph_two": "En definitiva, la herramienta para trabajar en equipo es ideal para las agencias."
+        },
+        "section_four": {
+            "title": "PYMES",
+            "paragraph_one": "Las redes sociales son indispensables para las pequeñas y medianas empresas, son el canal al mundo para dar a conocer o comercializar sus productos y servicios, además de ser el medio más rentable, Ajo Social es una herramienta ideal para mantenerse al día con la interacción de los seguidores en todas sus cuentas desde un sólo lugar.",
+            "paragraph_two": "Puedes planificar calendarios, hacer seguimiento de las analíticas, ver el progreso de sus redes sociales y el histórico diario de publicaciones para mantenerte al día de forma sencilla con un monitoreo global."
+        },
+        "section_five": {
+            "title": "Individual",
+            "paragraph_one": " Eres tu propia marca y queremos ser tu apoyo para administrar tus redes sociales de forma fácil y cómoda. Ajo Social te permite mantener todo organizado mediante un tablero de publicaciones donde puedes tener a mano el status, fecha, hora, la interacción, cantidad de likes, comentarios y vistas de cada publicación. ",
+            "paragraph_two": "La plataforma te permite hacer seguimiento de las analíticas de todos los perfiles, ver el total de publicaciones que has realizado y mucho más."
+        }
     }
 }

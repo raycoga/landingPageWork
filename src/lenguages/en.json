@@ -51,5 +51,72 @@
         "two": "Child Protection",
         "three": "Company",
         "four": "Contact"
+    },
+    "funtionalities": {
+        "section_two": {
+            "title": "Work in team",
+            "paragraph_one": "If you are an owner or Leader you can connect your social networks without giving your password to third parties, you can also see all connected networks, followers, manage access, invite your community administrators to give them access to publish on your social networks, You can also edit their profiles, delete them and change their roles at any time.",
+            "paragraph_two": "If you are a community manager you can enjoy all the functionalities but without worrying about connecting social networks or managing keys, you can see only the social networks that are assigned to you, their behavior, the top of the most active team members, Publish, program, plan Calendars and much more."
+        },
+        "section_three": {
+            "title": "Home",
+            "paragraph_one": "From home you can track the analytics of all profiles, see the total of publications you have made, the number of pending publications, the top of the most active members, the progress of your social networks and the historical journal of publications to keep you up to date. Simple day with global monitoring."
+        },
+        "section_four": {
+            "title": "Dashboard",
+            "paragraph_one": "Ajo Social allows you to keep everything organized through a board of publications where you can have on hand the status, date, time, interaction, number of likes, comments and views of each publication, in addition to facilitating the management process by filtering each of these options. It is the most comfortable way to view posts and interact with followers, write or respond to comments.",
+            "paragraph_two": "The tool design is very friendly and intuitive."
+        },
+        "section_five": {
+            "title": "¿What you wanna see?",
+            "paragraph_one": "The data in the whole platform will be based on the social networks that you have selected in the upper panel, you can select or remove the selection depending on the content that you are interested in seeing, also if you are an Owner or leader you can connect other social networks at any time."
+        },
+        "section_six": {
+            "title": "Social Networks",
+            "paragraph_one": "If you want to make the management of your social networks a little easier, we centralize all your Twitter, Facebook, Instagram, or LinkedIn profiles in the same panel, in this view you can see for each social network, the number of followers, your role, the members that have access and if you are an owner or leader, remove or add members to each network."
+        },
+        "section_seven": {
+            "title": "Notifications",
+            "paragraph_one": "Receive alerts of new comments, interactions of your followers or the activity of your team and find out at any time what happens in your Ajo Social Garlic."
+        },
+        "section_eight": {
+            "title": "Post It",
+            "paragraph_one": "We create the most efficient and complete way to create your publications, you should only select one or more social networks if you want to do it simultaneously, Fill your content with the help of the character limits for each network, add images or videos, as you go Customizing your post you can preview it in the moment before being published. Publish instantly or schedule the posts for another time and if you're not sure create drafts of your posts."
+        },
+        "section_nine": {
+            "title": "Plan calendars",
+            "paragraph_one": "If you love order there is no better way to plan than with our calendars, you can see them by day, week, month or year and thus have a clearer overview of what has been published or the spaces in which you want to program in the future."
+        },
+        "section_ten": {
+            "title": "Configure",
+            "paragraph_one": "You can see the platform in the language of your choice and keep your social networks safe with Google Authenticator."
+        }
+    },
+    "solutions": {
+        "section_one": {
+            "title": "Solutions",
+            "paragraph_one": "Social Garlic adapts to all types of businesses or private accounts, offering innovative and friendly solutions to meet your needs in the management of social networks.",
+            "button": "Start"
+        },
+        "section_two": {
+            "title": "Corporations",
+            "paragraph_one": "We know how important it is to manage social networks in large corporations, it is one of the fundamental pillars to establish communication with their clients and project solidity, Social Garlic provides multiple tools so that no detail escapes from your hands, works as a team, Assign a leader who in turn can supervise the rest of community managers, manage accounts, plan calendars, keep track of publications, keep up to date with notifications from their networks and much more.",
+            "paragraph_two": "Without a doubt we are the perfect ally to manage your social networks."
+        },
+        "section_three": {
+            "title": "Agency",
+            "paragraph_one": "Ajo Social is tailored to the needs of the agencies, they are the ones who manage the most social networks because it is one of their main services, our platform is designed to handle large volumes of publications and facilitate the administration of multiple associated accounts .",
+            "paragraph_two": "In short, the tool for teamwork is ideal for agencies."
+        },
+        "section_four": {
+            "title": "PYMES",
+            "paragraph_one": "Social networks are essential for small and medium enterprises, they are the channel to the world to publicize or market their products and services, in addition to being the most profitable medium, Social Garlic is an ideal tool to keep up with the interaction of followers in all your accounts from one place.",
+            "paragraph_two": "You can plan calendars, track analytics, see the progress of their social networks and the historical journal of publications to keep up to date easily with global monitoring."
+        },
+        "section_five": {
+            "title": "Individual",
+            "paragraph_one": "You are your own brand and we want to be your support to manage your social networks easily and conveniently. Social Garlic allows you to keep everything organized through a board of publications where you can have on hand the status, date, time, interaction, number of likes, comments and views of each publication.",
+            "paragraph_two": "The platform allows you to track the analytics of all profiles, see the total publications you have made and much more."
+        }
     }
 }

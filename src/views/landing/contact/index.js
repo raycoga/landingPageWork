@@ -1,0 +1,47 @@
+import React, { memo, useState, useEffect } from 'react';
+import './contact.scss'
+import Navbar from '../../../general_components/navbar'
+import Footer from '../../../general_components/footer'
+import Contact from '../components/section_six'
+import intl from 'react-intl-universal'
+const Index = memo((props) => {
+    const [initDone, setinitDone] = useState(false)
+    const locales = {
+        en: require('../../../lenguages/en.json'),
+        es: require('../../../lenguages/es.json')
+    }
+
+    const actualLeng = localStorage.getItem('lan') || 'en'
+
+    const loadLenguage = (lan) => {
+        localStorage.setItem('lan', lan);
+        setinitDone(false)
+        setinitDone('false')
+        intl.init({ currentLocale: lan, locales }).then(() => {
+            setinitDone(true)
+        })
+    }
+
+    useEffect(() => {
+        loadLenguage(actualLeng)
+        //eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
+
+    if (!initDone) {
+        return (
+            <div className="loader">
+                <div className="lds-ripple"><div></div><div></div></div>
+            </div>
+        )
+    }
+
+    return (
+        <div className='container-contact'>
+            <Navbar pathname={props.location.pathname} loadLenguage={loadLenguage} />
+            <Contact />
+            <Footer />
+        </div>
+    );
+});
+
+export default Index;

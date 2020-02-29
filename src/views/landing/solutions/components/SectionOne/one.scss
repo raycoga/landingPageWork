@@ -1,0 +1,36 @@
+@import '../../../../../sass/colors';
+@import '../../../../../sass/resposiveSize';
+
+.solutions-container-one {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+
+    .content {
+        width: 40%;
+        padding-left: 10vw;
+
+        @include media(md) {
+            padding-right: 10vw;
+            text-align: justify;
+            width: 80%;
+        }
+
+        @include media(sm) {
+            padding-right: 10vw;
+            text-align: justify;
+            width: 100%;
+        }
+
+        button {
+            border: 1px solid white;
+            background-color: rgba(255, 255, 255, 0.144);
+        }
+    }
+
+}

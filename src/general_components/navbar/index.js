@@ -5,8 +5,8 @@ import BurgerMenu from '../burgerMenu'
 import lenguage from '../../images/lenguage.png'
 import './navbar.scss'
 import intl from 'react-intl-universal'
-const Index = (props) => {
 
+const Index = (props) => {
     const { pathname, loadLenguage } = props
 
     /* the function and the state is needed to make the toogle function of the burger menu */
@@ -19,14 +19,17 @@ const Index = (props) => {
 
     return (
         <div className='sign-navbar'>
+
             <div className='image-container'>
-                <img src={Logo} alt='ajo color logo' />
+                {/*    <img src={Logo} alt='ajo color logo' /> */}
+                <Link to='/'> <img src={Logo} alt='ajo color logo' /></Link>
                 <BurgerMenu toggle={toggle} change={change} />
             </div>
 
             <div className='link-container-large' >
                 <ul>
                     <li><Link to='/functionalities'>  {intl.get('list_one.cero')}</Link></li>
+                    <li><Link to='/solutions'>  {intl.get('list_one.one')}</Link></li>
                     <li><Link to='/plans'>{intl.get('list_one.two')}</Link></li>
                     <li><Link to='/company'>{intl.get('list_one.three')}</Link></li>
                     <li><Link to='/contact'>{intl.get('list_one.four')}</Link></li>
@@ -54,9 +57,10 @@ const Index = (props) => {
                 <div className="collapse" id="collapseExample">
                     <ul>
                         <li><Link to='/functionalities'>  {intl.get('list_one.cero')}</Link></li>
-                        <li><Link to='/solutions'>{intl.get('list_one.two')}</Link></li>
-                        <li><Link to='/plans'>{intl.get('list_one.three')}</Link></li>
-                        <li><Link to='/company'>{intl.get('list_one.four')}</Link></li>
+                        <li><Link to='/solutions'>{intl.get('list_one.one')}</Link></li>
+                        <li><Link to='/plans'>{intl.get('list_one.two')}</Link></li>
+                        <li><Link to='/company'>{intl.get('list_one.three')}</Link></li>
+                        <li><Link to='/contact'>{intl.get('list_one.four')}</Link></li>
                         <li className='responsive'>
                             <img src={lenguage} style={{ height: '20px', marginRight: '10px' }} alt="lenguage" /><i className="fas fa-caret-right"></i>
                             <div className="container-selector-responsive">

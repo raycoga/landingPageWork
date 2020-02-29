@@ -1,6 +1,8 @@
 import React, { memo, useState, useEffect } from 'react';
 
+/* Imported Styles */
 import './landing.scss'
+/* Imported Components */
 import Navbar from '../../general_components/navbar'
 import SeccionOne from './components/section_one'
 import SeccionTwo from './components/section_two'
@@ -9,10 +11,12 @@ import SeccionFour from './components/section_four'
 import SeccionFive from './components/section_five'
 import SeccionSix from './components/section_six'
 import Footer from '../../general_components/footer'
+/* Imported Dependencies */
 import intl from 'react-intl-universal'
 
 
 const Index = memo((props) => {
+    /* LENGUAGE FUNCTION */
     const [initDone, setinitDone] = useState(false)
     const locales = {
         en: require('../../lenguages/en.json'),
@@ -24,7 +28,7 @@ const Index = memo((props) => {
     const loadLenguage = (lan) => {
         localStorage.setItem('lan', lan);
         setinitDone(false)
-        setinitDone('false')
+
         intl.init({ currentLocale: lan, locales }).then(() => {
             setinitDone(true)
         })
@@ -42,7 +46,7 @@ const Index = memo((props) => {
             </div>
         )
     }
-
+    /*END OF LENGUAGE FUNCTION */
     return (
         <div className="container-landing">
             <Navbar pathname={props.location.pathname} loadLenguage={loadLenguage} />
